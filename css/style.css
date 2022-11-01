@@ -1,0 +1,75 @@
+@font-face {
+	src: url(../fonts/roboto/Roboto-Regular.ttf);
+	font-family: Roboto-Regular;
+}
+@font-face {
+	src: url(../fonts/roboto/Roboto-Medium.ttf);
+	font-family: Roboto-Medium;
+}
+@font-face {
+	src: url(../fonts/lato/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face {
+	src: url(../fonts/lato/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+/* common start */
+body{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/* common end */
+
+/* header start */
+header{
+	/* border-bottom: 1px solid #8e8e8e; */
+}
+.h_nav{}
+.logo{
+	margin: 0;
+}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important;
+	font-family: Lato-Regular;
+	font-size: 20px;
+    color: #8e8e8e !important;
+}
+.menu ul li a:hover{
+	color: #333333 !important;
+}
+
+/* search start */
+.dd_a{
+	border: none;
+	color: #8e8e8e;
+}
+.dd_a:hover{
+	color: #333333 !important;
+}
+.dd_a::after{
+	display: none;
+}
+.dd_m[data-bs-popper] {
+    top: 59px;
+    left: -360px;
+    margin-top: 0;
+}
+.dd_m {
+	padding: 10px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 0;
+}
+.dd_input{
+
+}
+.dd_input:focus{
+    border-color: transparent;
+    box-shadow: none;
+}
+.dd_btn{}
+/* header end

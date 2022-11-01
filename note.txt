@@ -1,0 +1,19 @@
+
+color combination
+	#333333 black
+	#8e8e8e ash
+	#ffffff
+
+font family
+	lato
+		regular, medium, bold
+	roboto
+		regular, medium
+
+padding top + bottom
+font size
+content spacing
+
+
+
+		xxl,xl,lg		md		sm/col
